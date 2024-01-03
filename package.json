@@ -1,11 +1,11 @@
 {
-  "name": "webtask-splunk-logger",
-  "version": "1.0.2",
+  "name": "@kevpmoore/webtask-splunk-logger",
+  "version": "1.0.3",
   "description": "Utility to push Webtask logs from Auth0 Actions to splunk",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "standard-version && git push --follow-tags && npm publish"
+    "release": "standard-version && git push --follow-tags && npm publish --access public"
   },
   "repository": {
     "type": "git",
