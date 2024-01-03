@@ -1,7 +1,7 @@
 {
-  "name": "@VodafoneAustralia/iam-webtask-splunk-logger",
-  "version": "1.0.6",
-  "description": "Utility to push Webtask logs from Actions to splunk",
+  "name": "webtask-splunk-logger",
+  "version": "1.0.0",
+  "description": "Utility to push Webtask logs from Auth0 Actions to splunk",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -9,18 +9,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VodafoneAustralia/iam-webtask-splunk-logger.git"
+    "url": "git+https://github.com/kevpmoore/webtask-splunk-logger/settings"
   },
   "keywords": [
     "splunk",
-    "webtask"
+    "webtask",
+    "webtask-splunk-logger"
   ],
   "author": "Kevin Moore",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/VodafoneAustralia/iam-webtask-splunk-logger/issues"
+    "url": "https://github.com/kevpmoore/webtask-splunk-logger/issues"
   },
-  "homepage": "https://github.com/VodafoneAustralia/iam-webtask-splunk-logger#readme",
+  "homepage": "https://github.com/kevpmoore/webtask-splunk-logger#readme",
   "engines": {
     "node": ">=18.11.0"
   },
