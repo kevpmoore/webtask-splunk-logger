@@ -1,0 +1,32 @@
+{
+  "name": "@VodafoneAustralia/iam-webtask-splunk-logger",
+  "version": "1.0.6",
+  "description": "Utility to push Webtask logs from Actions to splunk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "standard-version && git push --follow-tags && npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VodafoneAustralia/iam-webtask-splunk-logger.git"
+  },
+  "keywords": [
+    "splunk",
+    "webtask"
+  ],
+  "author": "Kevin Moore",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VodafoneAustralia/iam-webtask-splunk-logger/issues"
+  },
+  "homepage": "https://github.com/VodafoneAustralia/iam-webtask-splunk-logger#readme",
+  "engines": {
+    "node": ">=18.11.0"
+  },
+  "dependencies": {
+    "bunyan": "1.8.15",
+    "splunk-bunyan-logger": "0.9.2",
+    "standard-version": "^9.5.0"
+  }
+}
