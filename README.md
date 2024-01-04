@@ -27,7 +27,7 @@ using Yarn: `yarn add webtask-splunk-logger`
 ### example
 
 ```javascript
- const createLogger = require("@VodafoneAustralia/webtask-splunk-logger")
+ const createLogger = require("webtask-splunk-logger")
  const SplunkToken = event.secrets.SplunkToken;
  const SplunkUrl = event.secrets.SplunkUrl;
  const SplunkIndex = event.secrets.SplunkIndex;
