@@ -1,6 +1,6 @@
 {
   "name": "webtask-splunk-logger",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Utility to push Webtask logs from Auth0 Actions to splunk",
   "main": "index.js",
   "scripts": {
